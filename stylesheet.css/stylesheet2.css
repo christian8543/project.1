@@ -1,0 +1,72 @@
+/*Latest News page */
+
+body {
+    font-family: Arial, sans-serif; 
+    margin: 0; /* Removes default */
+    padding: 0; /* Removes default*/
+    background-color: #f4f4f4; /* Light background */
+}
+
+/* Navigation Bar */
+nav {
+    background: black; /* Navigation bar background  */
+    padding: 10px;
+    text-align: center;
+}
+nav a {
+    color: white; /* Navigation link text color */
+    text-decoration: none; /* Remove underline from links */
+    margin: 10px;
+    font-size: 18px;
+    padding: 10px 10px;
+    display: inline-block;
+    transition: 0.3s;
+}
+nav a:hover {
+    background: #FFD700; /* Gold background on hover */
+    color: black;
+    border-radius: 5px;
+}
+
+
+
+/* Container */
+.container {
+    width: 80%; /* Keeps content well-centered */
+    margin: 20px auto; /* Centers content on the page */
+    background: white; /* White background for contrast */
+    padding: 20px;
+    box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.1); /* Subtle shadow for a lifted effect */
+}
+
+/* News Article Styling */
+.article {
+    margin-bottom: 20px; /* Adds space between articles */
+    padding-bottom: 15px;
+    border-bottom: 2px solid #ddd; /* Light gray separator between articles */
+}
+
+.article h2 {
+    color: #333; /* Dark text for headings */
+}
+
+.article img {
+    width: 100%; /* Makes images responsive */
+    max-height: 300px; /* Limits height */
+    object-fit: cover; /* Ensures the image covers the space properly */
+}
+
+.article p {
+    font-size: 16px; /* Comfortable reading size */
+    color: #555; /* Slightly lighter than black for easy reading */
+}
+/* Logo styling */
+.logo {
+    position: absolute; /* Keeps it separate from the nav links */
+    left: 15px; /* Moves logo to the left */
+    top: 14px;
+    height: 50px; /* Adjust size */
+    width: 50px; /* Ensure it's a square for a perfect circle */
+    border-radius: 50%; /* Makes it circular */
+    object-fit: cover; /* Ensures the image fills properly */
+}
